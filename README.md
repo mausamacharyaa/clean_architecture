@@ -1,16 +1,31 @@
-# clean_arch
+So for Clean Architecture we follow the SOLID Principle.
 
-A new Flutter project.
+*What does SOLID Principle means?
+SOLID actually contains 5 main aspects they are :
 
-## Getting Started
+*****************************
+1) S --> Single Responsibility Principle
+    Yo vanya chai like euta class ma dherei  kam na garne k. The class Should have only one reason to change.
 
-This project is a starting point for a Flutter application.
+    Example:
+        void userAuth () {
+            void class username{
+                ..............
+            };
 
-A few resources to get you started if this is your first Flutter project:
+            void class userPass () {
+                .............
+            }
+        }   // this basiallly is a bad thing and makes the code messy since there are 2 classes inside a sama class
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+        void class username() {
+            ....
+        }
+
+        void class userpass () {
+            .........
+        }// there are 2 separate class for 2 different purpose
+
+    
+2)  //11:27
