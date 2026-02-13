@@ -28,4 +28,29 @@ SOLID actually contains 5 main aspects they are :
         }// there are 2 separate class for 2 different purpose
 
     
-2)  //11:27
+2)  O--> Open/close principle
+        so basically it tells that the code should be open for extensions but closed for modification. It's pretty easy concept.
+
+    
+
+3) L--> Liskov Substitution Principle
+        It tells that the the subclasses must be replacable by the main class.
+
+
+
+4) I--> Interface Segration Principle
+        It tells that we dont have to force a class to impletements methods that doesnt need. like a machine dont eat but work and humans do both . so a machine dont have to implement the eat class . we should manage that.
+
+
+5) D--> Dependency Inversion Principle
+        It tells that " Depend on Abstarction but not on complete implementation".
+
+***********************************************************************************************
+
+
+
+APP FLOW.
+
+![APPFLOW](pics/Screenshot%202026-02-13%20064755.png)
+
+
